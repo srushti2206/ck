@@ -1,0 +1,49 @@
+/*-- products page --*/
+.row-2{
+    justify-content: space-between;
+    margin: 50px auto;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: white;
+}
+.dropdown-content{
+    background-color: white;
+}
+.dropdown-content a:hover {
+    background-color:#f5f2ee;
+  }
+  .col-4 p{
+    font-size: 14px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.col-4 h4{
+    color: #555;
+    font-weight:bold;
+    font-size: 18px;
+}
